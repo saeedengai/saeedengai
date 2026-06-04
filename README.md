@@ -6,15 +6,15 @@
 
 *I bridge the gap between cutting-edge AI solutions and real-world engineering challenges.*
 
-**Applied AI & Machine Learning Engineer | Power BI Developer | Data Analyst | Materials & Advanced Manufacturing Engineer**
+**Applied AI & Machine Learning Engineer | Data Analyst | Materials & Advanced Manufacturing Engineer**
 
 With expertise spanning Python, SQL, SSMS, Tableau, Power BI, TensorFlow, PyTorch, Scikit-learn, and advanced analytics, I deliver impactful solutions in AI, data science, and manufacturing. I design and implement robust data pipelines and machine learning models to drive business and research outcomes.
 
 ### 🛠️ Skills & Tools
 
 - **Languages & Databases:** Python, SQL, SSMS
-- **Machine Learning & AI:** TensorFlow, PyTorch, Scikit-learn, NLP, LLMs, Object Detection, Time Series Analysis
-- **Data Visualization & BI:** Tableau, Power BI, Pandas, Seaborn, Plotly, Matplotlib
+- **Machine Learning & AI:** TensorFlow, PyTorch, Scikit-learn, NLP, LLMs, Object Detection, Time Series Analysis, Multi-Agent Systems
+- **Data Visualization & BI:** Tableau, Power BI, Seaborn, Plotly, Matplotlib
 
 ### 🔗 Connect
 
