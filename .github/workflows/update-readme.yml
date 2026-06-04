@@ -1,0 +1,46 @@
+name: Update profile README
+
+# When does this run?
+#  - Whenever you push a change to your content (data/), the layout (templates/),
+#    or the generator script. It does NOT run when only README.md changes,
+#    which prevents it from triggering itself in an endless loop.
+#  - You can also run it by hand from the repo's "Actions" tab (workflow_dispatch).
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "templates/**"
+      - "generate.py"
+  workflow_dispatch:
+
+# Allow the action to push the regenerated README back to the repo.
+permissions:
+  contents: write
+
+jobs:
+  build-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate README.md
+        run: python generate.py
+
+      - name: Commit and push README if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git add README.md
+            git commit -m "Auto-update README from profile.json"
+            git push
+          else
+            echo "README.md already up to date - nothing to commit."
+          fi
