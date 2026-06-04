@@ -14,7 +14,7 @@ With expertise spanning Python, SQL, SSMS, Tableau, Power BI, TensorFlow, PyTorc
 
 - **Languages & Databases:** Python, SQL, SSMS
 - **Machine Learning & AI:** TensorFlow, PyTorch, Scikit-learn, NLP, LLMs, Object Detection, Time Series Analysis, Multi-Agent Systems
-- **Data Visualization & BI:** Tableau, Power BI, Seaborn, Plotly, Matplotlib
+- **Data Visualization & BI:** Power BI, Tableau, Seaborn, Plotly, Matplotlib
 
 ### 🔗 Connect
 
